@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Monserrat", sans-serif;
+}
+
+:root {
+    --main-bg-color: white;
+
+}
+
+.navbar {
+    background-color: #373A3C;
+}
+
+a.navbar-brand.titulo {
+    color: white;
+    height: 46px;
+}
+
+a.nav-link {
+    font-size: 16px;
+    color: #ffffff !important;
+    font-family: "Monserrat", sans-serif;
+    font-weight: normal;
+}
