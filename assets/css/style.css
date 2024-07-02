@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Monserrat", sans-serif;
+
 }
 
 :root {
@@ -23,4 +24,78 @@ a.nav-link {
     color: #ffffff !important;
     font-family: "Monserrat", sans-serif;
     font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Monserrat", sans-serif;
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+
+
+.column {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column.left {
+    text-align: left;
+}
+
+.column.center {
+    text-align: center;
+}
+
+.column.right {
+    text-align: right;
+}
+
+.column {
+    flex: 1;
+    /* Cada columna ocupa el mismo espacio */
+    text-align: center;
+    /* Alinea el contenido al centro */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.column i {
+    font-size: 3rem;
+    /* Tamaño del icono */
+    color: white;
+    text-align: center;
+
+}
+
+.icono1 {
+    text-align: center;
+    color: white;
+    background-color: #328998;
+    margin-bottom: 10px;
+}
+
+.icono2 {
+    text-align: center;
+    background-color: #328998;
+    margin-bottom: 10px;
+}
+
+.icono3 {
+    text-align: center;
+    background-color: #328998;
+    margin-bottom: 10px;
+}
+
+.gone {
+background-color: black;
 }
