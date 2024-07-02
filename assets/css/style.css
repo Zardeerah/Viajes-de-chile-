@@ -11,9 +11,7 @@ body {
 
 }
 
-.navbar {
-    background-color: #373A3C;
-}
+
 
 a.navbar-brand.titulo {
     color: white;
@@ -31,15 +29,26 @@ h1 {
     text-align: center;
     font-family: "Monserrat", sans-serif;
     padding-top: 50px;
+    color: #ffffff;
 }
-
+#section2 h1 {
+    color: #FFFFFF; 
+    text-align: center;
+}
 .row {
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 
 }
-
+#section3 h2 {
+    color: #FFFFFF; 
+    text-align: center;
+    font-family: "Monserrat", sans-serif;
+    padding-top: 50px;
+    color: #ffffff;
+    font-size: 50px;
+}
 
 
 .column {
@@ -50,14 +59,17 @@ h1 {
 
 .column.left {
     text-align: left;
+    color: #FFFFFF;
 }
 
 .column.center {
     text-align: center;
+    color: #FFFFFF;
 }
 
 .column.right {
     text-align: right;
+    color: #FFFFFF;
 }
 
 .column {
